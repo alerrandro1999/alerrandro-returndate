@@ -13,4 +13,9 @@ class ReturnDates
     {
         return date('m');
     }
+
+    public static function returnDay()
+    {
+        return date('d');
+    }
 }
