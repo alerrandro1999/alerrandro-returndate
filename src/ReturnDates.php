@@ -8,4 +8,9 @@ class ReturnDates
     {
         return date('Y');
     }
+
+    public static function returnMounth()
+    {
+        return date('m');
+    }
 }
