@@ -1,0 +1,20 @@
+{
+    "name": "alerrandro/returndate",
+    "description": "A simple package for Brazilian calendar date returns",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Alerrandro Borges",
+            "email": "alerrandrokaton@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Alerrandro\\date\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    } 
+}
