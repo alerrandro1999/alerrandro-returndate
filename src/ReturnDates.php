@@ -18,4 +18,9 @@ class ReturnDates
     {
         return date('d');
     }
+
+    public static function returnDate()
+    {
+        return date('d/m/Y');
+    }
 }
