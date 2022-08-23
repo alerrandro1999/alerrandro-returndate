@@ -1,8 +1,8 @@
 <?php
 
-namespace Alerrandro\date;
+namespace Alerrandro\date\DatesNumber;
 
-class ReturnDates
+class ReturnDatesNumber
 {
     public static function returnYear()
     {
