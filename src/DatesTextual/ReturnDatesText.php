@@ -2,11 +2,9 @@
 
 namespace Alerrandro\date\DatesTextual;
 
-use DateTime;
-use IntlDateFormatter;
-
 class ReturnDatesText
 {
+  
     public static function returnNameMounth()
     {
         $date = date('F');
