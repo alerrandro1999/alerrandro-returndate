@@ -47,4 +47,32 @@ class ReturnDatesText
                 break;
         }
     }
+
+    public static function returnNameDayWeek()
+    {
+        $date = date('l');
+        switch ($date) {
+            case 'Sunday':
+                echo 'Domingo';
+                break;
+            case 'Monday':
+                echo 'Segunda-Feira';
+                break;
+            case 'Tuesday':
+                echo 'Terça-Feira';
+                break;
+            case 'Wednesday':
+                echo 'Quarta-Feira';
+                break;
+            case 'Thursday':
+                echo 'quinta-Feira';
+                break;
+            case 'Friday':
+                echo 'Sexa-Feira';
+                break;
+            case 'Saturday':
+                echo 'Sábado';
+                break;
+        }
+    }
 }
