@@ -32,6 +32,9 @@ $day = ReturnDatesNumber::returnDay();
 $date = ReturnDatesNumber::returnDate();
 // retorna o nome do més (Janeiro)
 $nameMounth = ReturnDatesText::returnNameMounth();
+// retorna o nome do dia da semana (Segunda-Feira)
+$nameWeek = ReturnDatesText::returnNameDayWeek();
+
 
 
 
