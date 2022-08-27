@@ -18,20 +18,22 @@ Instale o pacote utilizando **Composer**
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
-use Alerrandro\date\ReturnDates;
+use Alerrandro\date\DatesNumber\ReturnDatesNumber;
 
-$year = ReturnDates::returnYear();
+use Alerrandro\date\DatesTextual\ReturnDatesText;
 
-$mounth = ReturnDates::returnMounth();
+// retora o ano (2022)
+$year = ReturnDatesNumber::returnYear();
+// retorna o més (01)
+$mounth = ReturnDatesNumber::returnMounth();
+// retorna o dia (01)
+$day = ReturnDatesNumber::returnDay();
+// retorna a data por extenso (00/00/0000)
+$date = ReturnDatesNumber::returnDate();
+// retorna o nome do més (Janeiro)
+$nameMounth = ReturnDatesText::returnNameMounth();
 
-$day = ReturnDates::returnDay();
 
-
-echo $year;
-
-echo $mounth;
-
-echo $day;
 
 ```
 
