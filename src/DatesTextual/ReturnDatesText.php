@@ -48,6 +48,50 @@ class ReturnDatesText
         }
     }
 
+    public static function returnNameMounthShort()
+    {
+        $date = date('F');
+        switch ($date) {
+            case 'January':
+                echo 'Jan';
+                break;
+            case 'February':
+                echo 'Fev';
+                break;
+            case 'March':
+                echo 'Mar';
+                break;
+            case 'April':
+                echo 'Abr';
+                break;
+            case 'May':
+                echo 'Mai';
+                break;
+            case 'June':
+                echo 'Jun';
+                break;
+            case 'July':
+                echo 'Jul';
+                break;
+            case 'August':
+                echo 'Ago';
+                break;
+            case 'September':
+                echo 'Set';
+                break;
+            case 'Octuber':
+                echo 'Out';
+                break;
+            case 'November':
+                echo 'Nov';
+                break;
+            case 'December':
+                echo 'Dez';
+                break;
+        }
+    }
+
+
     public static function returnNameDayWeek()
     {
         $date = date('l');
