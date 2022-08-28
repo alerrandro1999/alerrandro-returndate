@@ -24,16 +24,22 @@ use Alerrandro\date\DatesTextual\ReturnDatesText;
 
 // retora o ano (2022)
 $year = ReturnDatesNumber::returnYear();
+
 // retorna o més (01)
 $mounth = ReturnDatesNumber::returnMounth();
+
 // retorna o dia (01)
 $day = ReturnDatesNumber::returnDay();
+
 // retorna a data por extenso (00/00/0000)
 $date = ReturnDatesNumber::returnDate();
+
 // retorna o nome do més (Janeiro)
 $nameMounth = ReturnDatesText::returnNameMounth();
+
 // retorna o nome do més de forma curta com três letras (Jan)
 $nameMounth = ReturnDatesText::returnNameMounthShort();
+
 // retorna o nome do dia da semana (Segunda-Feira)
 $nameWeek = ReturnDatesText::returnNameDayWeek();
 
