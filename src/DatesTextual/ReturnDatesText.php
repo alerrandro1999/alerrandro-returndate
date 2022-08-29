@@ -5,117 +5,117 @@ namespace Alerrandro\date\DatesTextual;
 class ReturnDatesText
 {
   
-    public static function returnNameMounth()
+    public static function nomeDoMes()
     {
         $date = date('F');
         switch ($date) {
             case 'January':
-                echo 'Janeiro';
+                return 'Janeiro';
                 break;
             case 'February':
-                echo 'Fevereiro';
+                return 'Fevereiro';
                 break;
             case 'March':
-                echo 'Março';
+                return 'Março';
                 break;
             case 'April':
-                echo 'Abril';
+                return 'Abril';
                 break;
             case 'May':
-                echo 'Maio';
+                return 'Maio';
                 break;
             case 'June':
-                echo 'Junho';
+                return 'Junho';
                 break;
             case 'July':
-                echo 'Julho';
+                return 'Julho';
                 break;
             case 'August':
-                echo 'Agosto';
+                return 'Agosto';
                 break;
             case 'September':
-                echo 'Setembro';
+                return 'Setembro';
                 break;
             case 'Octuber':
-                echo 'Outubro';
+                return 'Outubro';
                 break;
             case 'November':
-                echo 'Novembro';
+                return 'Novembro';
                 break;
             case 'December':
-                echo 'Dezembro';
+                return 'Dezembro';
                 break;
         }
     }
 
-    public static function returnNameMounthShort()
+    public static function nomeDoMesCurto()
     {
         $date = date('F');
         switch ($date) {
             case 'January':
-                echo 'Jan';
+                return 'Jan';
                 break;
             case 'February':
-                echo 'Fev';
+                return 'Fev';
                 break;
             case 'March':
-                echo 'Mar';
+                return 'Mar';
                 break;
             case 'April':
-                echo 'Abr';
+                return 'Abr';
                 break;
             case 'May':
-                echo 'Mai';
+                return 'Mai';
                 break;
             case 'June':
-                echo 'Jun';
+                return 'Jun';
                 break;
             case 'July':
-                echo 'Jul';
+                return 'Jul';
                 break;
             case 'August':
-                echo 'Ago';
+                return 'Ago';
                 break;
             case 'September':
-                echo 'Set';
+                return 'Set';
                 break;
             case 'Octuber':
-                echo 'Out';
+                return 'Out';
                 break;
             case 'November':
-                echo 'Nov';
+                return 'Nov';
                 break;
             case 'December':
-                echo 'Dez';
+                return 'Dez';
                 break;
         }
     }
 
 
-    public static function returnNameDayWeek()
+    public static function nomeDiaDaSemana()
     {
         $date = date('l');
         switch ($date) {
             case 'Sunday':
-                echo 'Domingo';
+                return 'Domingo';
                 break;
             case 'Monday':
-                echo 'Segunda-Feira';
+                return 'Segunda-Feira';
                 break;
             case 'Tuesday':
-                echo 'Terça-Feira';
+                return 'Terça-Feira';
                 break;
             case 'Wednesday':
-                echo 'Quarta-Feira';
+                return 'Quarta-Feira';
                 break;
             case 'Thursday':
-                echo 'quinta-Feira';
+                return 'quinta-Feira';
                 break;
             case 'Friday':
-                echo 'Sexa-Feira';
+                return 'Sexa-Feira';
                 break;
             case 'Saturday':
-                echo 'Sábado';
+                return 'Sábado';
                 break;
         }
     }
